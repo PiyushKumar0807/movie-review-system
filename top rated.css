@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    background-color: #d4ac0e;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  body {
+    background-image:url("background.jpg");
+    background-blend-mode:overlay;
+    height: 100vh;
+    background-color: #0b0b0b;
+  }
+  .container {
+    font-size: 16px;
+    width: 90vw;
+    max-width: 37.5em;
+    padding: 1em 1.8em;
+    background-color: #201f28;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top: 6%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+  }
+  .search-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+  }
+  .search-container input,
+  .search-container button {
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+  }
+  .search-container input {
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    padding: 0.7em;
+    color: #ffffff;
+  }
+  .search-container input:focus {
+    border-color: #ffffff;
+  }
+  .search-container button {
+    background-color: #ffb92a;
+    border: none;
+    cursor: pointer;
+  }
+  #result {
+    color: #ffffff;
+  }
+  .info {
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    align-items: center;
+    margin-top: 1.2em;
+  }
+  .poster {
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #b38900;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #000;
+}
+  .rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6em;
+    margin: 0.6em 0 0.9em 0;
+  }
+  .rating img {
+    width: 1.2em;
+  }
+  .rating h4 {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  .details {
+    display: flex;
+    font-size: 0.95em;
+    gap: 1em;
+    justify-content: center;
+    color: #a0a0a0;
+    margin: 0.6em 0;
+    font-weight: 300;
+  }
+  .genre {
+    display: flex;
+    justify-content: space-around;
+  }
+  .genre div {
+    border: 1px solid #a0a0a0;
+    font-size: 0.75em;
+    padding: 0.4em 1.6em;
+    border-radius: 0.4em;
+    font-weight: 300;
+  }
+  h3 {
+    font-weight: 500;
+    margin-top: 1.2em;
+  }
+  
+  p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.8em;
+    text-align: justify;
+    color: #a0a0a0;
+  }
+  .movie-details {
+    display: flex;
+    padding: 20px;
+    background-color: #fff3f3;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.movie-info {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.movie-info h2 {
+    margin-top: 0;
+}
+
+.movie-description {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.rating {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Reviews Section */
+.reviews {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h3 {
+    margin-top: 0;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+.review em {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+  .msg {
+    text-align: center;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 14px;
+    }
+    .info {
+      grid-template-columns: 1fr;
+    }
+    .poster {
+      margin: auto;
+      width: auto;
+      max-height: 10.8em;
+    }
+  }

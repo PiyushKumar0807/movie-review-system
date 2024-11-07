@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    background-image: url("background.jpg");
+    background-blend-mode:overlay;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+    color: #333;
+}
+
+header {
+    background-color: #d4ac0e;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+/* Movie Details */
+.movie-details {
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.movie-info {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.movie-info h2 {
+    margin-top: 0;
+}
+
+.movie-description {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.rating {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+/* Reviews Section */
+.reviews {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h3 {
+    margin-top: 0;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+.review em {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
